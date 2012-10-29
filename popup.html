@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/popup.css"/>
+</head>
+<body style="width: 160px;padding: 8px;">
+    <div id="Login" style="text-align: center;"></div>
+    <div id="Logout" style="text-align: center;"></div>
+    <script type="text/template" id="nav-template">
+        {{#list}}
+            <span style="margin-left:10px"><a href="{{ url }}" target="_blank">{{text}}</a></span>
+        {{/list}}
+    </script>
+    <script src="/js/libs/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/libs/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/libs/mustache.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/libs/taobao.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/popup.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
